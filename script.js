@@ -1,5 +1,9 @@
 function minDate(dates) {
   //write you code here
+	let arr = dates.sort((a,b)=>{
+		return a.localeCompare(b);
+	});
+	return arr[0];
 }
 
 // Do not change the code
